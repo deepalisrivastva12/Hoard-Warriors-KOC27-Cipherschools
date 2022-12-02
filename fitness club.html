@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fitness CLub</title>
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+div.asdf{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.box {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 300px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button {
+  background-color: rgb(234, 230, 230);
+  color: rgb(13, 12, 12);
+  border: 3px solid #e7e7e7;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:100px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {background-color: #e7e7e7;}
+div.gallery {
+	margin: 5px;
+ 	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width:100%;
+height:auto;
+}
+
+
+
+</style>
+<body>
+	    <!-- Navbar Start -->
+	    <div class="asdf">
+	      <li style="float: left;"><h2> Fitness club</h2></li>
+		  <li><a class="active" href="#Gallery">Gallery</a></li>
+		  <li><a  href="#Nutrition">Nutrition</a></li>
+		  <li><a href="#TimeTable">TimeTable</a></li>
+		  <li><a href="#Training">Training</a></li>
+		  <li><a href="#about">About</a></li>
+		</div>
+    <!-- Navbar End -->
+    <!-- Register Start -->
+	<div class="clearfix">
+	  <div class="box" style="background-color:lavender;">
+	  <img style="width: 600px;height: 240px;" src="https://media.istockphoto.com/id/1268271103/photo/happy-woman-smiling-and-working-out-in-gym.jpg?b=1&s=170667a&w=0&k=20&c=3JB-DSq9YsED2QJJZIQxYizmO0Bj8CCn4IJe4WA8S0w=" alt="Image of person" />
+	  </div>
+	  <div class="box" style="background-color :lavender;">
+	  	<div style="padding: 160px;">
+            
+	  		<button style="height:40px; width:90px;">REGISTER</button>
+	  	</div>
+	   
+	  </div>
+	</div>
+    <!-- Register Ends -->
+    <!-- Information Start -->
+    <div style="background-color:lavender;">
+    	<p>
+    		Regular physical activity can improve your muscle strength and boost your endurance. Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently. And when your heart and lung health improve, you have more energy to tackle daily chores.
+    		<ul><b>1. It’s good for your health</b>
+    			</ul>
+    			We’re stating the obvious with this one but did you know that being active daily reduces the risk of heart disease, strokes and type 2 diabetes? 
+
+			<ul><b>2. It’s good for your mind</ul></b>
+
+			When you exercise, endorphins are released which can calm anxiety and lift your mood.
+
+			<ul><b>3. It’s a great stress buster</ul></b>
+
+			Had a busy day? There is nothing more rewarding then running further or lifting heavier than you have before. Plus, the fitter you get, the better your body is at regulating cortisol levels (the hormone linked to stress).
+		</p>
+    	
+    </div>
+    <!-- Information Ends -->
+    <!-- Image Gallery Starts -->
+    <div class="gallery">
+    	<a target="_blank" href="img_1.jpg">
+    		<img src="https://www.designworldeg.com/wp-content/uploads/2020/11/Exterior-Design-gym-1920x1444.jpg" alt="Gym" width="600" height="400"/>
+    	</a>
+    </div>
+    <div class="gallery">
+	  <a target="_blank" href="img_2.jpg">
+	    <img src="https://vit.ac.in/sites/default/files/gym.png" alt="Gym2" width="600" height="400"/>
+	  </a>
+  	</div>
+
+	<div class="gallery">
+	  <a target="_blank" href="img_3.jpg">
+	    <img src="https://learnenglish.britishcouncil.org/sites/podcasts/files/RS4967_78781313-hig.jpg" alt="Gym3" width="600" height="400"/>
+	  </a>
+	</div>
+
+	<div class="gallery">
+  	<a target="_blank" href="img_4.jpg" >
+    	<img src="https://content.jdmagicbox.com/comp/ahmedabad/e6/079pxx79.xx79.170331170338.u1e6/catalogue/advance-fitness-prahladnagar-ahmedabad-fitness-equipment-dealers-ft9fvd.jpg" alt="Gym4" width="600" height="400"/>
+  	</a>
+	</div>
+		<div class="gallery">
+  	<a target="_blank" href="img_5.jpg" >
+    	<img src="https://cdn.tatlerasia.com/asiatatler/i/hk/2020/02/14180543-crossfit-coastal-fitness-2020-hong-kong-tatler_cover_2000x1334.jpg" alt="Gym5" widhth="600"height="400"/>
+  	</a>
+	</div>
+		<div class="gallery">
+  	<a target="_blank" href="img_6.jpg" >
+    	<img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_375,q_auto:eco,dpr_2,f_auto,fl_progressive/v1/cult-media/v2web/centers/center_257_IMAGE_5812dcb8-9314-4817-81e2-2a2f1a0207f9.png" alt="Gym6" width="600" height="400"/>
+  	</a>
+	</div>
+    <!-- Image Gallery Ends -->
+</body>
+
+</html>
